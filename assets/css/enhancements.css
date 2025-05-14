@@ -1,0 +1,194 @@
+/* Banner Enhancements */
+.banner-features {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.banner-features span {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  backdrop-filter: blur(5px);
+}
+
+.banner-countdown {
+  background: #ff4757;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+
+/* Newsletter Enhancements */
+.newsletter-benefits {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-benefits span {
+  background: #f8f9fa;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.newsletter-privacy {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Testimonial Enhancements */
+.testimonial-rating {
+  color: #ffd700;
+  margin-bottom: 1rem;
+}
+
+.testimonial-stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.testimonial-stats span {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+/* CTA Enhancements */
+.cta-badge {
+  background: #ff4757;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.cta-features {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.cta-features span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Service Enhancements */
+.service-badge {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+/* Blog Enhancements */
+.blog-main-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.blog-excerpt {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Footer Enhancements */
+.store-rating {
+  margin-top: 1rem;
+}
+
+.rating-stars {
+  font-size: 1.2rem;
+}
+
+.rating-text {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.social-text {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.social-stats {
+  margin-top: 1rem;
+}
+
+.social-stats span {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-certifications {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-certifications span {
+  background: #f8f9fa;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.footer-love {
+  color: #ff4757;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner-features,
+  .newsletter-benefits,
+  .cta-features {
+    justify-content: center;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+  }
+} 
